@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="myForm" onsubmit="return workerDetails()">
+        <label id="nameLabel">enter first name:</label>
+        <input type="text"  id="userFirstNameInput"><br>
+        <label id="nameLabel2">enter last name:</label>
+        <input type="text"  id="userLastNameInput"><br>
+        <label id="ageLable">enter age:</label>
+        <input type="date"  id="dateInput"><br>
+        <label id="emailLable">enter email:</label>
+        <input type="email"  id="emailInput"><br>
+        <label id="phoneLable">enter phone number:</label>
+        <input type="number"  id="phoneNum"><br>
+        <label id="jobLable">enter job:</label>
+        <input type="text"  id="userJob"><br>
+        <button type="submit" onclick="cancelAfterFourthsPressSubmit()" id="btn">submit:</button>
+        <div id="time2" style="margin-left: 80vw; width: 220px;height: 220px;border-radius: 50%;
+        background-color: black;"></div>
+        <p id="time" style="margin-left: 83vw;color:green;margin-top: -18vh;"></p>
+        <p id="secondTimer"></p>
+    <script src="main.js"></script>
+</body>
+</html>
